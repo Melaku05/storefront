@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'playground.apps.PlaygroundConfig',
     "debug_toolbar", # django-debug-toolbar
+    'store.apps.StoreConfig',
+    'tags.apps.TagsConfig',
 ]
 
 MIDDLEWARE = [
